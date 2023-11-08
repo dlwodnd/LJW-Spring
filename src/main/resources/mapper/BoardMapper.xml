@@ -7,4 +7,10 @@
         SELECT iboard, title, writer, created_at as createdAt
         FROM board
     </select>
+
+    <select id="selBoardById">
+        SELECT iboard, title, ctnts, writer, created_at as createdAt
+        FROM board
+        WHERE iboard = #{iboard}
+    </select>
 </mapper>
