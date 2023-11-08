@@ -6,7 +6,7 @@ import com.green.springfirst.board.model.BoardInsDto;
 import com.green.springfirst.board.model.BoardUpdDto;
 import com.green.springfirst.board.model.BoardVo;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

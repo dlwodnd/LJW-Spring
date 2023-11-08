@@ -15,4 +15,5 @@ public interface BoardMapper {
     int insBoard(BoardInsDto dto);
     int delBoard(int iboard);
     int updBoard(BoardUpdDto dto);
+    // INSERT SELECT UPDATE(PUT,PATH) DELETE 중 SELECT를 제외한 나머지의 리턴값은 int이다.
 }
