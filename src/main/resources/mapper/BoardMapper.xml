@@ -13,4 +13,23 @@
         FROM board
         WHERE iboard = #{iboard}
     </select>
+
+    <update id="updBoard">
+        UPDATE board
+        SET title = #{title}
+        , ctnts = #{ctnts}
+        , writer = #{writer}
+        WHERE iboard = #{iboard}
+    </update>
+
+    <insert id="insBoard">
+        INSERT INTO board
+        SET title = #{title}
+        , ctnts = #{ctnts}
+        , writer = #{writer}
+    </insert>
+    <delete id="delBoard">
+        DELETE FROM board
+        WHERE iboard = #{iboard}
+    </delete>
 </mapper>
