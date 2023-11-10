@@ -10,7 +10,7 @@ public class RsVo {
     private int result;
 
     /*
-    @AllArgsConstructor @notnull이나 final인 필드값만 받는 생성자를 만들어 준다.
+    @AllArgsConstructor 모든 필드값을 받는 생성자를 만들어 준다.
     public RsVo(int result){
         this.result = result;
     }
